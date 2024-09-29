@@ -1,4 +1,4 @@
-package kunalkushwaha.array;
+package kunalkushwaha.array_1D;
 
 public class BASIC1 {
     public static void main(String[] args) {

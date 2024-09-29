@@ -1,4 +1,4 @@
-package kunalkushwaha.array;
+package kunalkushwaha.array_1D;
 
 import java.util.Arrays;
 
