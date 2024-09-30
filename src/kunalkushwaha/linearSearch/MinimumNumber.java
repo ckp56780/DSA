@@ -1,5 +1,6 @@
 package kunalkushwaha.linearSearch;
-
+//find the minimum number into the array
+//first take index 0 is min and then compare rest which index start from the 1
 public class MinimumNumber {
     public static void main(String[] args) {
 
