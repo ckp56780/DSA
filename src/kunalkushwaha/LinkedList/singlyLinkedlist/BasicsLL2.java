@@ -11,7 +11,7 @@ public class BasicsLL2 {
         Node(int data) {
             this.data = data;
         }
-
+//it is similar like display the linked list
         //create the length method here
         public static int length(Node head){
             int count=0;

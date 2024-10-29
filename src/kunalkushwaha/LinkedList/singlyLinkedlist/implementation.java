@@ -1,5 +1,5 @@
 package kunalkushwaha.LinkedList.singlyLinkedlist;
-//here we will understand about the how to add element at end which will pont to null.
+//here we will understand about the how to add element at end which will print to null.
 public class implementation {
     public static class Node{
         int data;
@@ -14,6 +14,8 @@ public class implementation {
         Node head=null;
         Node tail=null;
         int size=0;
+
+        //method to insert at end
         void insertAtEnd(int val){
             Node temp=new Node(val);
             if(head==null){

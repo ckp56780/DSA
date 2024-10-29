@@ -13,7 +13,7 @@ public class BasicsLL {
             this.data=data;
         }
 
-        //create here method to call these each node by recursively
+        //create here method to call these each node by  without recursively-display element by recursion
         public static void display(Node head){
             Node temp = head;
             while (temp!=null){
@@ -24,9 +24,10 @@ public class BasicsLL {
         }
         //OR
 
-        //CALLING LINKED LIST RECURSIVELY
+        //CALLING LINKED LIST RECURSIVELY-display all element by recursion
         public static void displayR(Node head){
-            if (head==null) return;
+            if (head==null) //base condition
+                return;
             System.out.print(head.data+" ");
             displayR(head.next);
 
@@ -90,9 +91,9 @@ public class BasicsLL {
 //        System.out.println(x.next.next.data);
 //        System.out.println(x.next.next.next.data);
 //        System.out.println(x.next.next.next.next.data);
-        //above to two way to print the data is not correct way:-
+        //above that two-way to print the data is not a correct way:-
 
-       // Node temp=x;
+       // Node temp=x; //where x is head
        // System.out.println(temp.data);
 
 
@@ -122,7 +123,7 @@ public class BasicsLL {
         System.out.println(".......................");
 
         //To display linked list into reverse order
-        displayRR(x);
+        //displayRR(x);
 
         //find the insertAtEnd id only head is given and linkedlist class is not been created
         insertAtEnd(a,87);
@@ -133,9 +134,9 @@ public class BasicsLL {
 
     //if only head is given and perform insert at end if linkedlist class is not given
     private static void insertAtEnd(Node head,int val) {
-        Node temp=new Node(val);
+        Node temp=new Node(val); //created new node
         Node t=head;
-        while (t.next!=null){
+        while (t.next!=null){ //tab tak while loop ko chalao
             t=t.next;
         }
         t.next=temp;
