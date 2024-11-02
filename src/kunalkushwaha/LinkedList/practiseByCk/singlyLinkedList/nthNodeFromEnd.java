@@ -15,15 +15,15 @@ public class nthNodeFromEnd {
         int size=0;
         Node temp=head;
         while (temp!=null){
-            size++; //m=nth node from last.
+            size++;
             temp=temp.next;
         }
-        int m=size-n+1;
+        int p=size-n+1; //here p is bucket where wwe will store the value and which is pth node from start
         
-        //find mth node from start
+        //find pth node from start
         //bring temp to head
         temp=head;
-        for (int i = 0; i <m-1 ; i++) {
+        for (int i = 0; i <p-1 ; i++) {
             temp=temp.next;
             
         }
