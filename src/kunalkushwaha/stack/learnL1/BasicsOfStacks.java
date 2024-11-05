@@ -1,7 +1,7 @@
-package kunalkushwaha.stack.learn;
+package kunalkushwaha.stack.learnL1;
 
 import java.util.Stack;
-
+//program-01
 public class BasicsOfStacks {
     public static void main(String[] args) {
         Stack<Integer> st=new Stack<>();
