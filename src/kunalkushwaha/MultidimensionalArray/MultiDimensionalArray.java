@@ -22,6 +22,8 @@ public class MultiDimensionalArray {
         Scanner sc = new Scanner(System.in);
 
 
+
+       // output:traditional for loop
         for (int row = 0; row < arr.length; row++) {
             for (int col = 0; col < arr[row].length; col++) {
                 arr[row][col] = sc.nextInt();
@@ -32,5 +34,12 @@ public class MultiDimensionalArray {
 
 
         }
+
+//        //with enhanced for loop
+//        for(int[] num: arr){//each no of array: reference variable
+//
+//            System.out.println(Arrays.toString(num));
+//        }
+//        //System.out.println();
     }
 }
