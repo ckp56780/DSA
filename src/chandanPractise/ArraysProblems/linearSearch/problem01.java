@@ -1,6 +1,9 @@
 package chandanPractise.ArraysProblems.linearSearch;
 //Problem: Linear Search in an Array
-//Write a Java program to implement a linear search algorithm. The program should search for a target element in a given array of integers. If the target element is found, the program should return the index of the element. If the target is not found, return -1.
+//Write a Java program to implement a linear search algorithm.
+// The program should search for a target element in a given array of integers.
+// If the target element is found, the program should return the index of the element.
+// If the target is not found, return -1.
 //
 //Problem Statement:
 //You are given an array of integers and a target value.
@@ -40,7 +43,8 @@ public class problem01 {
              }
          }
              return -1;
-         }
+
+     }
 
 
 
