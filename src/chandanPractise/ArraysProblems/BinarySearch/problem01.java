@@ -8,7 +8,7 @@ public class problem01 {
         int[] arr={1, 2, 3, 4, 5, 6, 7, 8, 9};
         int target=5;
 
-        //calling the method:-
+        //calling the Method:-
         int ans=returnTargetIndex(arr,target);
         System.out.println(ans);
     }

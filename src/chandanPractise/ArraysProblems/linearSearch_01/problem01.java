@@ -1,4 +1,4 @@
-package chandanPractise.ArraysProblems.linearSearch;
+package chandanPractise.ArraysProblems.linearSearch_01;
 //Problem: Linear Search in an Array
 //Write a Java program to implement a linear search algorithm.
 // The program should search for a target element in a given array of integers.
@@ -16,8 +16,6 @@ package chandanPractise.ArraysProblems.linearSearch;
 //
 //Output:
 //Element found at index 2
-
-import kunalkushwaha.linearSearch.LinearSearch;
 
 public class problem01 {
 

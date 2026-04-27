@@ -1,4 +1,4 @@
-package chandanPractise.ArraysProblems.linearSearch;
+package chandanPractise.ArraysProblems.linearSearch_01;
 
 import java.util.Arrays;
 
