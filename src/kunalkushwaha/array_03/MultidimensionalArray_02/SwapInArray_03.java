@@ -2,7 +2,7 @@ package kunalkushwaha.array_03.MultidimensionalArray_02;
 
 import java.util.Arrays;
 //write a program to swap of element at given array
-public class SwapInArray {
+public class SwapInArray_03 {
     public static void main(String[] args) {
         int[] arr={12,13,14,15,16,17};
 

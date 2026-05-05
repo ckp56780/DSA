@@ -2,9 +2,9 @@ package kunalkushwaha.array_03.linearSearch_03.A_2D;
 
 import java.util.Arrays;
 
-//This above program is basically for finding the number into the array with linear search
-//and it will return the index value in this program for particular element;
-public class SearchIn2DArrayReturnIndex {
+//This above program is basically for finding the number into the array with linear search,
+//and it will return the index value in this program for a particular element;
+public class SearchIn2DArrayReturnIndex_02 {
     public static void main(String[] args) {
 
         int[][] arr={
@@ -13,7 +13,7 @@ public class SearchIn2DArrayReturnIndex {
                 {112,81,90,900,123}
         };
 
-        int target=1;
+        int target=900;
         //calling the function
         int[] ans=SearchIn2DArray( arr, target);
         System.out.println(Arrays.toString(ans));

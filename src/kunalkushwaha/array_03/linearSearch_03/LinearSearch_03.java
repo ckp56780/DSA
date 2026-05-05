@@ -1,6 +1,6 @@
 package kunalkushwaha.array_03.linearSearch_03;
 
-public class LinearSearch2 {
+public class LinearSearch_03 {
     //get true and false value  if element found or not?
     public static void main(String[] args) {
 

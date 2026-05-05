@@ -1,6 +1,11 @@
 package kunalkushwaha.array_03.binarySearch_04;
+
+//if  array is given in int[] arr = {3,3,4,3,3,3,3,3,3,4,15,15,18,18,18,89};
+//this is also in the ascending order by seeing we can identify but by logic if we want to compare then need
+//to compare like first index element with second index element like 3=3,or 3=4,but by this
+//way we cant identify weather it is in asc/desc thn the best way to compare with first index element with last index element
 //This is for the OrderAgnostic binary search problem
-public class program2 {
+public class program_02 {
     public static void main(String[] args) {
        // int[] arr = {-18,-12,-4,0,2,3,4,15,16,18,22,45,89};
         int[] arr={98,97,45,33,23,12,11,9,1,0};
@@ -41,21 +46,21 @@ public class program2 {
 
 
             if (isAsc) {
-                //for left side
+                //for the left side
                 if (target < arr1[mid]) {
                     end = mid - 1;
                 }
-                //for right side
+                //for the right side
                 else {
                     start = mid + 1;
                 }
 
             } else {
-                //for left side
+                //for the left side
                 if (target > arr1[mid]) {
                     end = mid - 1;
                 }
-                //for right side
+                //for the right side
                 else {
                     start = mid + 1;
                 }

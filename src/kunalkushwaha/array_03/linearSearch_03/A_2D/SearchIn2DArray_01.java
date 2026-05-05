@@ -1,6 +1,6 @@
 package kunalkushwaha.array_03.linearSearch_03.A_2D;
 
-public class SearchIn2DArray {
+public class SearchIn2DArray_01 {
     public static void main(String[] args) {
 
         int[][] arr={

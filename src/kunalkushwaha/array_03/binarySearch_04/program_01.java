@@ -1,7 +1,9 @@
 package kunalkushwaha.array_03.binarySearch_04;
 
 //program-01:find the target element with the help of binary search algorithm.
-public class program1 {
+//Here we assume, or we know that the array is in ascending or descending order,
+//but if we don't know the array is in asc/desc, then we will go for OrderAgnostic
+public class program_01 {
     public static void main(String[] args) {
         int[] arr={-18,-12,-4,0,2,3,4,15,16,18,22,45,89};
         int target=2;

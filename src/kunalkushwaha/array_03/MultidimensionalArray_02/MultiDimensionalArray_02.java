@@ -2,7 +2,7 @@ package kunalkushwaha.array_03.MultidimensionalArray_02;
 
 import java.util.Scanner;
 
-public class MultiDimensionalArray {
+public class MultiDimensionalArray_02 {
     public static void main(String[] args) {
         /*
         1 2 3

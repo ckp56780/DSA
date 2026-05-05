@@ -1,6 +1,6 @@
 package kunalkushwaha.array_03.linearSearch_03.A_2D;
 
-public class MaxValue2DArray {
+public class MaxValue2DArray_03 {
     public static void main(String[] args) {
 
         int[][] arr = {

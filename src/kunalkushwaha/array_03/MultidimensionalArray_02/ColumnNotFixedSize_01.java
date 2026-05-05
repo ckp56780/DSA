@@ -2,8 +2,9 @@ package kunalkushwaha.array_03.MultidimensionalArray_02;
 
 import java.util.Arrays;
 
-public class ColumnNotFixedSize {
+public class ColumnNotFixedSize_01 {
     public static void main(String[] args) {
+        // example:--  int[][] arr=new arr[3][];
         int[][] arr={
                 {1,2,3,4},
                 {5,6},

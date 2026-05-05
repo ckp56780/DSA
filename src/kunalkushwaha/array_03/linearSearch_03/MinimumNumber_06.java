@@ -1,7 +1,7 @@
 package kunalkushwaha.array_03.linearSearch_03;
 //find the minimum number into the array
 //first take index 0 is min and then compare rest which index start from the 1
-public class MinimumNumber {
+public class MinimumNumber_06 {
     public static void main(String[] args) {
 
         int[] arr = {18, 12, 7, 3, 14, 28};

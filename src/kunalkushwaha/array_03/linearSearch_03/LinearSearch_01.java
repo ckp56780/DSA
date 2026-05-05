@@ -1,6 +1,6 @@
 package kunalkushwaha.array_03.linearSearch_03;
 
-public class LinearSearch {
+public class LinearSearch_01 {
     public static void main(String[] args) {
         int[] arr={10,12,13,14,19,-4,15,20};
         int target=20;

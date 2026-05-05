@@ -15,6 +15,7 @@ public class DoingWithFunction4 {
     }
 
     private static void change(int[] num) {
+
         num[0]=100;
     }
 }
