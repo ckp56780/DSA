@@ -1,6 +1,6 @@
 package kunalkushwaha.array_03.MultidimensionalArray_02;
-//write  a program to find the max value in the given array
-public class MaxValue {
+//write a program to find the max value in the given array
+public class MaxValue_04 {
     public static void main(String[] args) {
         int[] arr={1,2,3,4,5,6,221};
 
@@ -13,11 +13,9 @@ public class MaxValue {
     private static int max(int[] arr) {
 
         //you can define here the age cases--
-
-
         int maxValue=arr[0];
         for (int i = 1; i < arr.length; i++) { //start compare after index 1
-            if (arr[i]>maxValue){//where arr[i] -defind as alike to get each value
+            if (arr[i]>maxValue){//where arr[i] -defined as alike to get each value
                 maxValue=arr[i];
 
             }

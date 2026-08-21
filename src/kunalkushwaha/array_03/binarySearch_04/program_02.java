@@ -3,7 +3,7 @@ package kunalkushwaha.array_03.binarySearch_04;
 //if  array is given in int[] arr = {3,3,4,3,3,3,3,3,3,4,15,15,18,18,18,89};
 //this is also in the ascending order by seeing we can identify but by logic if we want to compare then need
 //to compare like first index element with second index element like 3=3,or 3=4,but by this
-//way we cant identify weather it is in asc/desc thn the best way to compare with first index element with last index element
+//way we cant identify wether it is in asc/desc then the best way to compare with first index element with last index element
 //This is for the OrderAgnostic binary search problem
 public class program_02 {
     public static void main(String[] args) {
@@ -25,15 +25,15 @@ public class program_02 {
 
         //find weather the array is sorted into ascending and descending
 
-        boolean isAsc = arr1[start] < arr1[end];
+        //boolean isAsc = arr1[start] < arr1[end];
 
         //or
-//        boolean isAsc;
-//        if(arr1[start]<arr1[end]){
-//            isAsc=true;
-//        }else {
-//            isAsc=false;
-//        }
+        boolean isAsc;
+        if(arr1[start]<arr1[end]){
+            isAsc=true;
+        }else {
+            isAsc=false;
+        }
 
         while (start <= end) {
             //find the middle element

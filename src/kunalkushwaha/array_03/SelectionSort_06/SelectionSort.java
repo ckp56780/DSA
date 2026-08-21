@@ -1,4 +1,4 @@
-package kunalkushwaha.array_03.SelectionSort_05;
+package kunalkushwaha.array_03.SelectionSort_06;
 
 import java.util.Arrays;
 

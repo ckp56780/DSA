@@ -16,6 +16,7 @@ public class EvenDigitNumber_04 {
         }
         return count;
     }
+    //pls remember this logic-for next time
 //function to check weather a number contains even digits number s or not?
      static boolean even(int num) {
         int noOfDigits=digits(num);

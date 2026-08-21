@@ -1,4 +1,4 @@
-package kunalkushwaha.array_03.LastCyclicSort_07;
+package kunalkushwaha.array_03.LastCyclicSort_08;
 //287. Find the Duplicate Number
 //https://leetcode.com/problems/find-the-duplicate-number/description/
 

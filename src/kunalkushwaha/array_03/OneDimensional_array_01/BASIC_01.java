@@ -22,10 +22,10 @@ public class BASIC_01 {
         int[] arr=new int[5];
 
 
-        //this is declartion of array
+        //this is a declaration of array
         // int[] arr
 
-        //initialisation of array
+        //initialization of array
         // arr=new int[5];  //here the new object will also be created in the heap area.
         //here in the heap area memory is not continuous in nature that depends on the JVM
         System.out.println(arr[0]);

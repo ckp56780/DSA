@@ -1,6 +1,6 @@
 package chandanPractise.ArraysProblems.topquestionLeetcode;
 
-//trick-sorted array applies the binary search will apply-
+//trick-sorted array applies the binary search will apply -
 //ceiling is - smallest no in the array which is greater than or equal to target.
 //arr-{2,3,5,9,14,16,18}
 

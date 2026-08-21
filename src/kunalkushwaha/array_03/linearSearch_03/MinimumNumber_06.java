@@ -12,9 +12,9 @@ public class MinimumNumber_06 {
     public static int minimunNumber(int[] arr1) {
         //assume that array is not empty
         //finding the min number in the array
-        int ans = arr1[0];
+        int ans = arr1[0];  //18
         for (int i = 1; i < arr1.length; i++) {
-            if (arr1[i] < ans) {
+            if (arr1[i] < ans) { //18<12 if yes-ans will be 12,12<7-ans will-7...so on
                 ans = arr1[i];//update the answer
             }
         }
