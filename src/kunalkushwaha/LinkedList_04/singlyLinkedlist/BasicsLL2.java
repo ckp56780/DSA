@@ -1,7 +1,7 @@
 package kunalkushwaha.LinkedList_04.singlyLinkedlist;
 
 import static kunalkushwaha.LinkedList_04.singlyLinkedlist.BasicsLL2.Node.length;
-//Q.FIND THE LENGTH OF given LINKED LIST::
+//Q.FIND THE LENGTH OF given LINKED LIST:
 public class BasicsLL2 {
     public static class Node {
         int data;

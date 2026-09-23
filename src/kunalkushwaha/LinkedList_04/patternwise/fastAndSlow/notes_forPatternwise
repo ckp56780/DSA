@@ -1,0 +1,91 @@
+1. Fast & Slow Pointer Pattern
+Used when you need to find something in the middle or detect cycles.
+Purpose:
+Find middle
+Detect cycle
+Find cycle start
+Palindrome
+
+Problems
+Middle of Linked List (LC 876)
+Linked List Cycle (LC 141)
+Linked List Cycle II (LC 142)
+Happy Number (LC 202)
+Palindrome Linked List (LC 234)
+
+2. Two Pointers Pattern
+Different from Fast-Slow.
+Here both pointers move at the same speed.
+Problems
+Remove Nth Node From End (LC 19)
+Intersection of Two Linked Lists (LC 160)
+Partition List (LC 86)
+Example
+Remove nth node from end:
+
+
+3. Dummy Node Pattern
+Very important.
+Whenever the head node might change, use a dummy node.
+Problems
+Remove Elements (LC 203)
+Merge Two Sorted Lists (LC 21)
+Swap Nodes in Pairs (LC 24)
+Remove Duplicates
+
+4. Reversal Pattern
+One of the most important patterns.
+Problems
+Reverse Linked List (LC 206)
+Reverse Linked List II (LC 92)
+Palindrome Linked List
+Reverse Nodes in K Group (LC 25)
+
+5. Merge Pattern
+Used when dealing with multiple sorted lists.
+Problems
+Merge Two Sorted Lists (LC 21)
+Merge K Sorted Lists (LC 23)
+Sort List (LC 148)
+Idea
+Compare nodes from two lists and attach smaller one
+
+6. Divide & Conquer Pattern
+Frequently mixed with Merge Pattern.
+Problems
+Sort List (LC 148)
+Merge K Sorted Lists (LC 23)
+Idea
+Split list into halves.
+Solve recursively.
+Merge.
+Uses Fast-Slow pointer just for splitting
+
+7. Recursion Pattern
+Problems
+Reverse Linked List
+Swap Nodes in Pairs
+Merge Sorted Lists
+
+8. Hashing Pattern
+Used when extra space is allowed.
+Problems
+Linked List Cycle
+Remove Duplicates
+Intersection of Linked Lists
+
+Reality of Interviews
+For Linked Lists, around 90% of interview questions can be solved using combinations of:
+✅ Fast & Slow Pointer
+ ✅ Two Pointers
+ ✅ Dummy Node
+ ✅ Reversal
+ ✅ Merge
+
+If you master these 5 patterns,
+you'll be able to solve almost every Linked
+List problem asked in coding interviews and most LeetCode medium-level questions.
+ As you're already studying patterns in DSA,
+ after Linked Lists I'd recommend moving to:
+ Sliding Window → Two Pointers (Array) → Prefix Sum → Binary Search → Backtracking → Heap → Graphs.
+ This is a very interview-friendly progression.

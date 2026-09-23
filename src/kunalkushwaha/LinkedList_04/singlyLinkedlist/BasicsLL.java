@@ -13,7 +13,7 @@ public class BasicsLL {
             this.data=data;
         }
 
-        //create here method to call these each node by  without recursively-display element by recursion
+        //create here method to call these each node by without a recursively-display element by recursion
         public static void display(Node head){
             Node temp = head;
             while (temp!=null){
@@ -24,7 +24,8 @@ public class BasicsLL {
         }
         //OR
 
-        //CALLING LINKED LIST RECURSIVELY-display all element by recursion
+        //This is the best approach always use this
+        //CALLING LINKED LIST RECURSIVELY-display all elements by recursion
         public static void displayR(Node head){
             if (head==null) //base condition
                 return;
@@ -45,9 +46,9 @@ public class BasicsLL {
     }
     public static void main(String[] args) {
         Node x=new Node(5);
-//        System.out.println(x); //kunalkushwaha.LinkedList.singlyLinkedlist.BasicsLL$Node@53d8d10a
+//        System.out.println(x); //kunalkushwaha.LinkedList.singlyLinked list.BasicsLL$Node@53d8d10a
 //        System.out.println(x.data);  //0--default value of int will print
-//        System.out.println(x.next);//null-it will print the another node reference value/address which will be null.
+//        System.out.println(x.next);//null-it will print another node reference value/address which will be null.
         Node y=new Node(7);
         Node z=new Node(9);
         Node a=new Node(32);
@@ -93,10 +94,9 @@ public class BasicsLL {
 //        System.out.println(x.next.next.next.next.data);
         //above that two-way to print the data is not a correct way:-
 
+        //or
+
        // Node temp=x; //where x is head
-       // System.out.println(temp.data);
-
-
 //        for (int i = 0; i <5 ; i++) {
 //            //System.out.println(temp.data);  //or
 //            System.out.print(temp.data+" ");
