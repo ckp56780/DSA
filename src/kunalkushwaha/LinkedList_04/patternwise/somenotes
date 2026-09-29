@@ -1,0 +1,90 @@
+This is two pointer approach:-
+2. LC 160 - Intersection of Two Linked Lists ⭐⭐⭐
+
+This is the next problem you should do.
+
+New concept:
+p1 = (p1 == null) ? headB : p1.next;
+p2 = (p2 == null) ? headA : p2.next;
+
+You'll learn:
+
+How two pointers can meet
+Why switching lists works
+Length difference handling automatically
+
+This is a very common interview question.
+
+3. LC 86 - Partition List
+
+You'll learn:
+
+Building two lists
+Using dummy nodes
+Combining lists
+4. LC 328 - Odd Even Linked List--done--samajh nhi aya hai
+
+You'll learn:
+
+Multiple pointers
+Rearranging nodes
+Pointer manipulation
+5. LC 61 - Rotate List
+
+You'll learn:
+
+Two pointers + length calculation
+Edge case handling
+Revision Before Moving Ahead
+
+After solving:
+LC 19 ==done
+LC 160==done
+LC 86==need to done
+LC 328==done
+LC 61==need to done
+
+Close everything and ask yourself:
+
+Can I identify?
+
+Fast & Slow Pointer
+
+Middle
+Cycle
+Palindrome
+
+Two Pointer
+
+Fixed Gap
+Meeting Point
+Intersection
+
+If yes, then move to the next Linked List pattern.
+Next Pattern After Two Pointers
+
+
+Pattern 3: Dummy Node
+Problems:
+
+LC 21 Merge Two Sorted Lists
+LC 203 Remove Linked List Elements
+LC 83 Remove Duplicates from Sorted List
+LC 82 Remove Duplicates from Sorted List II
+LC 24 Swap Nodes in Pairs
+
+You'll realize that Dummy Node is used in almost every Linked List interview problem.
+
+My Recommendation for You
+
+For tomorrow:
+
+Revise LC 19 once.
+Solve LC 160 thoroughly.
+Understand the dry run.
+Write the logic in your notebook.
+Re-code it in IntelliJ without looking.
+
+Only after you're comfortable with LC 160 should you continue with LC 86.
+
+Right now, LC 160 (Intersection of Two Linked Lists) is the perfect next problem for your Pattern 2 journey. 🚀
